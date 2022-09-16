@@ -57,7 +57,7 @@ import java.util.Scanner;
              return mid;                        //returning that position
 
 
-         if (data[mid] < searchKey)             //if the serach key is greater its right of the mid
+         if (data[mid] < searchKey)             //if the search key is greater its right of the mid
              left = mid + 1;                    //moving the left up to one above the mid because the search key is to the right
 
 
